@@ -1,0 +1,81 @@
+{
+	"id": "392c70d4-b607-e11e-c3d6-2c6587fe461d",
+	"name": "INATEL-T141-DM110-Exercice2",
+	"description": "",
+	"order": [
+		"2cbe840d-fae2-91c7-acc3-4dcd78e238b7",
+		"f8c0e0f2-8409-1067-2a79-3e9280eec358"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1510445517488,
+	"owner": "2070412",
+	"public": false,
+	"requests": [
+		{
+			"id": "2cbe840d-fae2-91c7-acc3-4dcd78e238b7",
+			"headers": "",
+			"headerData": [],
+			"url": "http://localhost:8080/cliente/api/client/names",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1510449373735,
+			"name": "client/names",
+			"description": "",
+			"collectionId": "392c70d4-b607-e11e-c3d6-2c6587fe461d",
+			"responses": []
+		},
+		{
+			"id": "f8c0e0f2-8409-1067-2a79-3e9280eec358",
+			"headers": "Content-Type: application/x-www-form-urlencoded\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8080/cliente/api/client/create",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [
+				{
+					"key": "name",
+					"value": "fernanda",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "email",
+					"value": "fernanda@email.com",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1510451278766,
+			"name": "client",
+			"description": "",
+			"collectionId": "392c70d4-b607-e11e-c3d6-2c6587fe461d",
+			"responses": []
+		}
+	]
+}

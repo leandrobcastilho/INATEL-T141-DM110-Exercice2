@@ -1,0 +1,5 @@
+//cliente-ejb
+
+dependencies {   
+	compile project(':cliente-ejb-client')
+} 
